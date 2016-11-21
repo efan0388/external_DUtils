@@ -101,7 +101,7 @@ public class ActionConstants {
                 dl(SMARTBAR_DEF_BUTTONS)                                                              // default number of ButtonConfig
               + dl(BUTTON1_TAG)                                                                     // button tag
               + dl(SystemAction.Back.mAction)       + dl(SystemAction.Back.mLabelRes)     + dl(EMPTY)  // single tap (PRIMARY)
-              + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes)  + dl(EMPTY)  // long press (SECOND)
+              + dl(SystemAction.KillApp.mAction)   + dl(SystemAction.KillApp.mLabelRes)  + dl(EMPTY)  // long press (SECOND)
               + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes) + dl(EMPTY)  // double tap (THIRD)
 
               + dl(BUTTON2_TAG)
